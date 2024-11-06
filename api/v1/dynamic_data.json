@@ -1,0 +1,41 @@
+{
+  "federal": {
+    "president": {
+      "name": "Joe Biden",
+      "title": "President of the United States",
+      "party": "Democratic",
+      "term_start": "2021",
+      "term_end": "2025"
+    },
+    "vice_president": {
+      "name": "Kamala Harris",
+      "title": "Vice President of the United States",
+      "party": "Democratic",
+      "term_start": "2021",
+      "term_end": "2025"
+    },
+    "speaker": {
+      "name": "Mike Johnson",
+      "title": "Speaker of the House",
+      "party": "Republican",
+      "term_start": "2023"
+    }
+  },
+  "congress": {
+    "house": {
+      "total_seats": 435,
+      "current_session": "118th Congress",
+      "term": "2023-2025",
+      "majority_party": "Republican"
+    },
+    "senate": {
+      "total_seats": 100,
+      "seats_per_state": 2,
+      "current_session": "118th Congress",
+      "term": "2023-2025",
+      "majority_party": "Democratic"
+    }
+  },
+  "last_updated": "2024-01-20T00:00:00Z",
+  "version": "20240120000000"
+}

@@ -1,0 +1,30 @@
+{
+  "api_version": "1.0.0",
+  "data_version": "20240120000000",
+  "last_updated": "2024-01-20T00:00:00Z",
+  "files": {
+    "dynamic_data.json": {
+      "version": "20240120000000",
+      "size": 1234,
+      "hash": "sha256_hash_here"
+    },
+    "zip_data_ca.json": {
+      "version": "20240120000000",
+      "size": 2345,
+      "hash": "sha256_hash_here"
+    }
+  },
+  "update_frequency": "daily",
+  "next_scheduled_update": "2024-01-21T00:00:00Z",
+  "changes": [
+    {
+      "date": "2024-01-20",
+      "type": "update",
+      "description": "Initial data setup"
+    }
+  ],
+  "status": {
+    "code": 200,
+    "message": "API is operational"
+  }
+}

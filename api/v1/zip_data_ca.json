@@ -1,0 +1,48 @@
+{
+  "state": "CA",
+  "zip_codes": {
+    "90001": {
+      "state": "CA",
+      "district": "44",
+      "representative": "Nanette Barragán",
+      "counties": ["Los Angeles County"]
+    },
+    "90210": {
+      "state": "CA",
+      "district": "30",
+      "representative": "Adam Schiff",
+      "counties": ["Los Angeles County"]
+    },
+    "94102": {
+      "state": "CA",
+      "district": "11",
+      "representative": "Nancy Pelosi",
+      "counties": ["San Francisco County"]
+    },
+    "95814": {
+      "state": "CA",
+      "district": "7",
+      "representative": "Doris Matsui",
+      "counties": ["Sacramento County"]
+    }
+  },
+  "state_info": {
+    "name": "California",
+    "capital": "Sacramento",
+    "total_districts": 52,
+    "senators": [
+      {
+        "name": "Laphonza Butler",
+        "party": "Democratic",
+        "term_end": "2025"
+      },
+      {
+        "name": "Alex Padilla",
+        "party": "Democratic",
+        "term_end": "2029"
+      }
+    ]
+  },
+  "last_updated": "2024-01-20T00:00:00Z",
+  "version": "20240120000000"
+}
