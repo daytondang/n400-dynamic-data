@@ -4,7 +4,6 @@ from datetime import datetime
 from scraper import PoliticalDataScraper
 from validator import DataValidator
 from generator import JsonGenerator
-from git_handler import GitHandler
 
 def main():
     print("Starting data update process...")
@@ -13,7 +12,6 @@ def main():
     scraper = PoliticalDataScraper()
     validator = DataValidator()
     generator = JsonGenerator()
-    git_handler = GitHandler()
 
     try:
         # Collect data
@@ -36,13 +34,7 @@ def main():
         }
         generator.generate_version_data(version_data)
 
-        # Git operations
-        if git_handler.has_changes():
-            print("Changes detected, updating repository...")
-            git_handler.commit_and_push()
-            print("Repository updated successfully")
-        else:
-            print("No changes detected")
+        print("Data update completed successfully")
 
     except Exception as e:
         print(f"Error during update process: {str(e)}")
